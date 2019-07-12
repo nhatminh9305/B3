@@ -1,0 +1,1671 @@
+
+$mau_den: #0d0d0d;
+$mau_vang: #ceb04a;
+$mau_hoi_vang: #a48541;
+$mau_gan_trang: #f2f2f2;
+$mau_bottom: #050505;
+$mau_icon: #7a6a37;
+$cochunho: 14px;
+$cochuvua: 18px;
+$cochulon: 36px;
+$cochumenu: 15px;
+$calendar: 16px;
+
+@font-face {
+    font-family: MyriadPro Regular;
+    src: url(../font/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: RobotoSlab Light;
+    src: url(../font/RobotoSlab-Light.ttf);
+}
+@font-face {
+    font-family: ProximaNova Regular;
+    src: url(../font/ProximaNova-Regular.ttf);
+}
+@font-face {
+    font-family: ProximaNova Light;
+    src: url(../font/ProximaNova-Light.otf);
+}
+@font-face {
+    font-family: ProximaNova Bold;
+    src: url(../font/ProximaNova-Bold.otf);
+}
+@font-face {
+    font-family: ProximaNova Thin;
+    src: url(../font/ProximaNova-Thin.otf);
+}
+body{
+    background-color: $mau_den;
+}
+
+#slide-home{
+    .bg-gradient{
+        height: 100%;
+        width: 100%;
+        // background-image: linear-gradient(#0d0d0dcc, #ffff0000, #0d0d0dcc);
+    }
+    .slide_{
+        position: relative;
+        .owl-nav{
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                .owl-prev{
+                    background-color: transparent;
+                    position: absolute;
+                    left: 0;
+                    i.fa{
+                       font-size: 70px; 
+                        color: #7a6a37;
+                    }
+                    &:focus{
+                        i.fa{
+                            border: 0px;
+                        }
+                    }
+                }
+                .owl-next{
+                    background-color: transparent;
+                    position: absolute;
+                    right: 0;
+                    i.fa{
+                        font-size: 70px;
+                        color: #7a6a37;
+                    }
+                }
+            }
+        .owl-dots {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            
+            .owl-dot{
+                span{
+                    background: none;
+                    border:1px solid #7a6a37;
+                }
+            }
+            .owl-dot.active{
+                span{
+                    background: #7a6a37;
+                    border:1px solid #7a6a37;
+                }
+            }
+        }
+        .slide_item{
+            position: relative;
+            .slide-content{
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                width: 100%;
+                transform: translateX(-50%);
+                h1{
+                    font-size: 86px;
+                    color: #f2f2f2;
+                    line-height: 82px;
+                    text-align: center;
+                    font-family: ProximaNova Thin;
+                    text-transform: uppercase;
+                }
+            }
+        } 
+    }
+}
+
+.room-single{
+    margin-top: 50px;
+    .room-single-item{
+        .room-items{
+            position: relative;
+            margin-top: 50px;
+            .img-border{
+                border: 1px solid;
+                transform: translate(0px, 0px);
+                transition: 0.4s;
+                img{
+                    transform: translate(0px, 0px);
+                    transition: 0.4s;
+                }
+            }
+            &:hover{
+                .room-item-info{
+                    .room-item-info-visible{
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                    .room-item-info-overload{
+                        opacity: 1;
+                        visibility: visible;
+                        background: rgb(13,13,13);
+                        background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(13,13,13,0.24413515406162467) 50%, rgba(13,13,13,1) 100%);
+                    }
+                }
+                .img-border{
+                    border: 1px solid #a48541;
+                    transform: translate(-10px, 10px);
+                    img{
+                        transform: translate(10px, -10px);
+                    }
+                }
+            }
+            .room-item-info{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                background-color: #0d0d0d75;
+                .room-item-info-visible{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: auto;
+                   
+                    background: rgb(13,13,13);
+                    background: linear-gradient(180deg, rgba(13,13,13,0.31976540616246496) 50%, rgba(13,13,13,1) 100%);
+                    -webkit-transition: 0.4s linear;
+                    transition: 0.4s linear;
+                    h4 {
+                        margin: 0;
+                        padding: 0;
+                        a {
+                            font-family: ProximaNova Thin;
+                            text-decoration: none;
+                            color: #f2f2f2;
+                            font-size: 30px;
+                            margin-left: 10px;
+
+                            i.fa {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    ul.room-info {
+                        padding: 0;
+                        margin-left: 10px;
+                        margin-bottom: 0;
+                        li {
+                            font-family: ProximaNova Light;
+                            color: #f2c783;
+                            font-size: 16px;
+                            list-style: none;
+
+                            i.fa {
+                                margin-right: 10px;
+                            }
+                        }
+
+                    }
+                }
+                .room-item-info-overload {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-transition: 0.4s linear;
+                    transition: 0.4s linear;
+                    h4 {
+                        margin-bottom: 0;
+                        margin-top: 10px;
+                        a {
+                            font-family: ProximaNova Thin;
+                            text-decoration: none;
+                            color: #f2f2f2;
+                            font-size: 30px;
+                            margin-left: 10px;
+
+                            i.fa {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    ul.room-info {
+                        margin-bottom: 25px;
+                        padding: 0;
+                        margin-left: 10px;
+
+                        li {
+                            font-family: ProximaNova Light;
+                            color: #f2c783;
+                            font-size: 16px;
+                            list-style: none;
+
+                            i.fa {
+                                margin-right: 10px;
+                            }
+                        }
+
+                    }
+
+                    .btn-room {
+                        background-color: #7a6a37;
+                        font-family: ProximaNova Bold;
+                        font-size: 18px;
+                        color: #f2f2f2;
+                        border-radius: 0px;
+                        padding: 10px;
+                        text-transform: uppercase;
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }    
+            }
+        }
+    }
+    .title-lg{
+        text-align: center;
+        position: relative;
+        h1{
+            font-family: ProximaNova Bold;
+            font-size: 36px;
+            color: #ceb04a;
+            text-transform: uppercase;
+        }
+        .line-start{
+            position: relative;
+            display: inline-block;
+            height: 20px;
+            width: 35px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            &:before{
+                position: absolute;
+                right: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;    
+            }
+            &:after{
+                position: absolute;
+                left: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;
+            }
+            span{
+                font-size: 20px;
+                color: #ceb04a;
+            }
+        }
+    }
+}
+
+#news{
+    margin-top: 80px;
+    background-image: url('../images/news/bg-news-home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 70px;
+    .news-right{
+        .title-news{
+            color: #f2f2f2;
+            text-transform: uppercase;
+            font-family: ProximaNova Bold;
+            font-size: 24px;
+            margin-top: 18px;
+        }
+        .news-items{
+            padding: 15px 0;
+            .line-buttom.line-hide{
+                border-bottom: none;
+            }
+            .line-buttom{
+                padding-left: 0;
+                border-bottom: 1px solid #f2f2f28f;
+                padding-bottom: 15px;
+                .content{
+                    font-family: ProximaNova Regular;
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    
+                }
+                .calendar{
+                    color: #f2f2f28f;
+                    i.fa{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .news-left{
+        .line{
+            margin: 74px 0;
+            h3{
+                color: #f2f2f2;
+                font-family: ProximaNova Bold;
+                font-size: 36px;
+                line-height: 24px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            .line_p {
+                padding-left: 0;
+	            .content{
+                font-family: ProximaNova Regular;
+                color: #f2f2f2;
+                font-size: 17px;
+                line-height: 24px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+                .calendar{
+                    color: #f2f2f28f;
+                    i.fa{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#gallery {
+    .gellary_{
+        position: relative;
+        margin-bottom: 10px;
+        .gallery-text{
+            position: absolute;
+            
+            left: 50px;
+            bottom: 20px;
+            h3{
+                font-family: ProximaNova Bold;
+                font-size: 60px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            h4{
+                font-family: ProximaNova Bold;
+                font-size: 72px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+        }
+    }
+    
+    .title-lg{
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+        h1{
+            font-family: ProximaNova Bold;
+            font-size: 36px;
+            color: #ceb04a;
+            text-transform: uppercase;
+        }
+        .line-start{
+            position: relative;
+            display: inline-block;
+            height: 20px;
+            width: 35px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            &:before{
+                position: absolute;
+                right: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;    
+            }
+            &:after{
+                position: absolute;
+                left: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;
+            }
+            span{
+                font-size: 20px;
+                color: #ceb04a;
+            }
+        }
+    }
+    .room-img{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        .img-pd{
+            padding-left: 10px;
+            padding-right: 0px;
+            .room-img-item{
+            margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+//modal
+#myModal{
+    .modal-content{
+        border: 0px;
+        border-radius: 0px;
+        width: 700px;
+        .modal-header{
+            padding: 10px;
+            background-color: #7a6a37;
+            span{
+                font-size: 30px;
+            }
+            h4.modal-title{
+                margin: 0;
+                font-family: ProximaNova Bold;
+                font-size: 20px;
+                color: #f2f2f2;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .modal-body{
+        padding: 30px;
+        p{
+            font-family: ProximaNova Regular;
+            font-size: 17px;
+            color: #040404;
+            margin-bottom: 20px;
+            span{
+                font-family: ProximaNova Bold;
+                text-transform: uppercase;
+            }    
+        }
+        .booking-room{
+            .form-group{
+                margin-bottom: 30px;
+            }
+            label{
+                font-family: ProximaNova Regular;
+                font-size: 15px;
+                color: #040404;
+            }
+            input{
+                border-radius: 0px;
+            }
+            .btn-booking{
+                background-color: #7a6a37;
+                font-family: ProximaNova Bold;
+                color: #f2f2f2;
+                text-transform: uppercase;
+                border-radius: 0px;
+                padding: 15px;
+                
+            }
+        }
+    }
+}
+// end modal
+
+//room
+#room{
+    .room-items{
+        position: relative;
+        margin-top: 50px;
+        &:hover{
+            .room-item-info{
+                .room-item-info-visible{
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                .room-item-info-overload{
+                    opacity: 1;
+                    visibility: visible;
+                    background: rgb(13,13,13);
+                    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(13,13,13,0.24413515406162467) 50%, rgba(13,13,13,1) 100%);
+                }
+            }
+        }
+        .room-item-info{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            background-color: #0d0d0d75;
+            .room-item-info-visible{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                background: rgb(13,13,13);
+                background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(13,13,13,0.24413515406162467) 50%, rgba(13,13,13,1) 100%);
+                -webkit-transition: 0.4s linear;
+                transition: 0.4s linear;
+                h4 {
+                    margin: 0;
+                    padding: 0;
+                    a {
+                        font-family: ProximaNova Thin;
+                        text-decoration: none;
+                        color: #f2f2f2;
+                        font-size: 30px;
+                        margin-left: 10px;
+
+                        i.fa {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                ul.room-info {
+                    padding: 0;
+                    margin-left: 10px;
+                    margin-bottom: 0;
+                    li {
+                        font-family: ProximaNova Light;
+                        color: #f2c783;
+                        font-size: 16px;
+                        list-style: none;
+
+                        i.fa {
+                            margin-right: 10px;
+                        }
+                    }
+
+                }
+            }
+            .room-item-info-overload {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                visibility: hidden;
+                -webkit-transition: 0.4s linear;
+                transition: 0.4s linear;
+                h4 {
+                    margin-bottom: 0;
+                    margin-top: 10px;
+                    a {
+                        font-family: ProximaNova Thin;
+                        text-decoration: none;
+                        color: #f2f2f2;
+                        font-size: 30px;
+                        margin-left: 10px;
+
+                        i.fa {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                ul.room-info {
+                    margin-bottom: 25px;
+                    padding: 0;
+                    margin-left: 10px;
+
+                    li {
+                        font-family: ProximaNova Light;
+                        color: #f2c783;
+                        font-size: 16px;
+                        list-style: none;
+
+                        i.fa {
+                            margin-right: 10px;
+                        }
+                    }
+
+                }
+
+                .btn-room {
+                    background-color: #7a6a37;
+                    font-family: ProximaNova Bold;
+                    font-size: 18px;
+                    color: #f2f2f2;
+                    border-radius: 0px;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }    
+        }
+    }
+}
+//end room
+
+//room detail
+#room-details{
+    margin-top: 65px; 
+    .room-list{
+        .room-list-item{
+            .room-detail{
+                margin-bottom: 40px;
+                .room-detail-left{
+                    border: 0px solid #7a6a37;
+                    transform: translate(0px, 15px);
+                    transition: 0.4s;
+                    img{
+                        transform: translate(0px, 0px);
+                        transition: 0.4s;
+                    }
+
+                    &:hover{
+                        border: 1px solid #7a6a37;
+                        img{
+                            transform:  translate(15px, -15px);
+                        }
+                    }
+                }
+                
+                .room-detail-right{
+                    padding-left: 15px;
+                    height: 394px;
+                    h3{
+                        font-family: ProximaNova Light;
+                        font-size: 48px;
+                        color: #f2f2f2;
+                        margin-top: 0;
+                        margin-bottom: 15px;
+                    }
+                    
+                    p{
+                        font-family: ProximaNova Light;
+                        font-size: 15px;
+                        color: #f2f2f2;
+                        line-height: 20px;
+                        height: 160px;
+                        overflow: hidden;
+                    }
+                    ul.room-info{
+                        margin-bottom: 25px;
+                        padding: 0;
+                        li{
+                            font-family: ProximaNova Light;
+                            color: #f2c783;
+                            font-size: 16px;
+                            list-style: none;
+                            margin: 10px 0;
+                            i.fa{
+                                margin-right: 10px;
+                            }
+                        }
+                        
+                    }
+                    a.btn-room{
+                        background-color: #7a6a37;
+                        font-family: ProximaNova Bold;
+                        font-size: 18px;
+                        color: #f2f2f2;
+                        border-radius: 0px;
+                        padding: 10px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .room-img{
+                width: 100%;
+                height: auto;
+                .img-pd{
+                    padding-left: 10px;
+                    padding-right: 0px;
+                    .room-img-item{
+                    margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .owl-theme{
+        .owl-nav{
+            position: relative;
+            font-family: ProximaNova Thin;
+            margin-top: 15px;
+            
+            .owl-prev{
+                position: absolute;
+                left: 0;
+                background: transparent;
+                font-size: 36px;
+                i.fa{
+                    font-size: 20px;
+                    margin-right: 8px;
+                }
+            }
+            .owl-next{
+                position: absolute;
+                right: 0;
+                background: transparent;
+                font-size: 36px;
+                i.fa{
+                    font-size: 20px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+
+
+    
+}
+//end room detail
+
+//personne (tuyển dụng)
+#personnel{
+    margin-top: 80px;
+    background-image: url('../images/bg/bg-content.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    .personnel-item{
+        h5{
+            font-family: ProximaNova Bold;
+            font-size: 14px;
+            color: #f2f2f2;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        p{
+            font-family: ProximaNova Regular;
+            font-size: 14px;
+            color: #f2f2f2;
+            text-transform: uppercase;
+        }
+        span{
+            color: #f2f2f2;
+            margin-bottom: 30px;
+            display: block;
+        }
+    }
+    .personnel-title{
+        h4{
+            font-family: ProximaNova Bold;
+            font-size: 36px;
+            color: #f2f2f2;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        span{
+            font-family: ProximaNova Regular;
+            font-size: 16px;
+            color: #f2f2f257; 
+            i.fa{
+                margin-right: 5px;
+            }
+        }
+    }
+    .personnel-footer{
+        p.yeu-cau{
+            font-family: ProximaNova Regular;
+            font-size: 14px;
+            color: #f2f2f2;
+            text-transform: uppercase;
+        }
+        ul.yeu-cau-ct{
+            padding: 0;
+            li{
+                font-family: ProximaNova Regular;
+                font-size: 14px;
+                color: #f2f2f2;
+                text-transform: uppercase;
+                list-style: none;
+            }
+        }
+        ul.personnel-address{
+            padding: 0;
+            
+            li{
+                font-family: ProximaNova Regular;
+                font-size: 14px;
+                color: #f2f2f2;
+                text-transform: uppercase;
+                list-style: none;
+                span{
+                    font-family: ProximaNova Bold;
+                }
+            }
+        }
+    }
+}
+//end personnel
+
+//contact
+#contact{
+    margin-top: 50px;
+    background-image: url('../images/bg/bg-content.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contact-left{
+        .contact-info{
+            h4{
+                font-family: ProximaNova Bold;
+                font-size: 20px;
+                color: #f2f2f2;
+                margin: 0px;
+                text-transform: uppercase;
+            }
+            small{
+                font-family: ProximaNova Regular;
+                font-size: 15px;
+                color: #f2f2f2;
+                display: block;
+                margin: 10px 0;
+            }
+            p{
+                font-family: ProximaNova Regular;
+                font-size: 16px;
+                color: #f2f2f2;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    
+    .contact-right {
+        .contact-right-form{
+            label{
+                font-family: ProximaNova Thin;
+                font-size: 15px;
+                color: #f2f2f2;
+            }
+            .form-control{
+                border-radius: 0px;
+                margin-bottom: 25px;
+            }
+            button.btn-contact{
+                font-family: ProximaNova Bold;
+                color: #f2f2f2;
+                font-size: 16px;
+                text-transform: uppercase;
+                width: 300px;
+                text-align: center;
+                background-color: #7a6a37;
+                border-radius: 0;
+                padding: 10px;
+                -webkit-transition: 0.4s;
+                transition: 0.4s;
+                &:hover{
+                    background-color: #ceb04a;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    .banner-fix.contact {
+        background-image: url('../images/bg/bg-contact.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+    }
+}
+//end contact
+
+//menu
+#menu-list{
+    margin-top: 20px;
+    background-image: url('../images/bg/bg-content.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    .title-lg{
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+        h1{
+            font-family: ProximaNova Bold;
+            font-size: 36px;
+            color: #ceb04a;
+            text-transform: uppercase;
+        }
+        .line-start{
+            position: relative;
+            display: inline-block;
+            height: 20px;
+            width: 35px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            &:before{
+                position: absolute;
+                right: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;    
+            }
+            &:after{
+                position: absolute;
+                left: 100%;
+                top: 10px;
+                content:"";
+                background-color: #ceb04a;
+                width: 200px;
+                height: 2px;
+            }
+            span{
+                font-size: 20px;
+                color: #ceb04a;
+            }
+        }
+    }
+
+    ul.nav-tabs{
+        border-bottom: 1px solid #ceb04a;
+        margin-bottom: 50px;
+        li{
+            margin-bottom: -1px;
+            padding: 0 9px;
+            a{
+                font-family: ProximaNova Bold;
+                font-size: 16px;
+                color: #979797;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: transparent;
+                    border-color: transparent;
+                    color: #ceb04a;
+                }
+            }
+            &:nth-child(1){
+                margin-left: 10px;
+            }
+        }
+        li.active{
+                
+            a{
+                background-color: transparent;
+                border-color: transparent;
+                color: #ceb04a;
+                border-radius: 0;
+                border: 1px solid #ceb04a;
+                border-bottom: 1px solid #0d0d0d;
+                
+            }
+        }
+    }
+    
+    .tab-content{
+        .menu-list-item{
+            margin-bottom: 40px;
+            .menu-list-item-right{
+                h4{
+                    margin-top: 0;
+                    margin-bottom: 5px;
+                    font-family: ProximaNova Bold;
+                    font-size: 18px;
+                    color: #ceb04a;
+                    text-transform: uppercase;
+                } 
+                p{
+                    font-family: ProximaNova Regular;
+                    font-size: 16px;
+                    color: #bcbcbc;
+                    line-height: 20px;
+                    height: 82px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    
+    .news-pagination{
+        ul.pagination{
+            li{
+                
+                a{
+                    background-color: transparent;
+                    border-radius: 0;
+                    border: 1px solid #979797;
+                    font-family: ProximaNova Bold;
+                    color: #979797;
+                    margin: 0 4px;
+                    font-size: 18px;
+                    padding: 5px 12px;
+                    &:hover{
+                        border: 1px solid #7a6a37;
+                        color: #ceb04a;
+                    }
+                    &:focus{
+                        border: 1px solid #7a6a37;
+                        color: #ceb04a;
+                    }
+                }
+            }
+        }
+    }
+    .comming_{
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #ceb04a;
+            font-size: 15px;
+            i.fa{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+#menu-slide{
+    margin-top: 20px;
+    #myCarousel{
+        .carousel-control{
+            width: 8%;
+        }
+        .left{
+            background-image: url('../images/icon/chevron-left.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .right{
+            background-image: url('../images/icon/chevron-right.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+.banner {
+    .banner-fix.menu {
+        background-image: url('../images/menu/bg-menu.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+    }
+}
+//end menu
+
+//new-detail
+#news-detail{
+    margin-top: 35px;
+    .news-detail-left{
+        h4{
+            font-family: ProximaNova Bold;
+            font-size: 36px;
+            color: #f2f2f2;
+            margin: 0px;
+            text-transform: uppercase;
+        }
+        span{
+            font-family: ProximaNova Regular;
+            font-size: 16px;
+            color: #f2f2f2;
+            i {
+                margin-right: 3px;
+            }
+        }
+        p{
+            margin-top: 30px;
+            font-family: ProximaNova Regular;
+            font-size: 15px;
+            color: #f2f2f2;
+            line-height: 20px;
+            margin-bottom: 0;
+            text-align: justify;
+            img{
+                text-align: center;
+                padding: 20px 0px;
+            }
+        }
+    }
+    .news-detail-right{
+        .box-title{
+             
+            h4{
+                font-family: ProximaNova Bold;
+                font-size: 18px;
+                color: #ceb04a;
+                text-transform: uppercase;
+                border: 1px solid #ceb04a;
+                padding: 15px 30px;
+                margin-bottom: 20px;
+            }
+        }
+        .news-detail-item{
+            margin-bottom: 30px;
+            h4{
+                margin-bottom: 0;
+                a{
+                    font-family: ProximaNova Bold;
+                    font-size: 18px;
+                    color: #f2f2f2;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    -webkit-transition: 0.4s all;
+                    transition: 0.2s all;
+                    &:hover{
+                        color: #ceb04a;
+                    }
+                }
+                
+            }
+            span{
+                font-family: ProximaNova Regular;
+                font-size: 14px;
+                color: #f2f2f2;
+
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+}
+// end new-detail
+
+//nav
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    margin-top: 80px;
+    
+    nav.navbar-default{
+        background-color: transparent;
+        border-color: transparent;
+        background-image: none;
+        box-shadow: none;
+    }
+    
+    nav.navbar{
+        margin-bottom: 0px;
+    }
+    
+    .site-nav-wapper{
+        
+        #mobile-nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            overflow-y: hidden;
+            background-color: rgba(37, 37, 34, 0.9);
+            z-index: 3;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+            
+            #mobile-nav-content{
+                text-align: center;
+                width: 100%;
+                position: relative;
+                top: 5%;
+                
+                ul.nav{
+                    li{
+                        margin-bottom: 20px;
+                        
+                        a{
+                            font-family: ProximaNova Regular;
+                            font-size: 17px;
+                            color: #f2f2f2;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            display: inline;
+                            -webkit-transition: .3s;
+                            transition: .3s;
+                            
+                            &:hover, &:focus{
+                                background: none;
+                                color: #f4c613;
+                            }
+                           
+                        }
+                        a.active{
+                            color: #f4c613;
+                        }
+                    }
+                }
+            }
+            
+            #mobile-nav-close-btn{
+                font-size: 50px;
+                color: #f4c613;
+                cursor: pointer;
+                position: absolute;
+                top: 0px;
+                right: 18px;
+                z-index: 4;
+            }
+        }
+        
+        .navbar-header{
+            position: relative;
+            
+            #mobile-nav-open-btn{
+                color: #ceb04a;
+                font-size: 30px;
+                cursor: pointer;
+                position: absolute;
+                right: 20px;
+                top: 30px;
+                opacity: 0;
+                visibility: hidden;
+            }
+            
+            .navbar-brand {
+                height: auto;
+                .title-logo{
+                    text-align: center;
+                    font-size: 12px;
+                    font-family:RobotoSlab Light;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #a48541;
+                }
+            }
+        }
+        
+        .collapse{
+            ul.nav {
+                padding: 42px;
+            }
+
+            ul.navbar-nav li {
+                padding: 15px;
+
+                a {
+                    font-size: 15px;
+                    color: #f2f1f1;
+                    font-family: ProximaNova Regular;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    padding: 5px 0;
+                    display: block;
+                    -webkit-transition: 0.4s;
+                    transition: 0.4s;
+
+                    &:hover {
+                        background: none;
+                        color: #f4c613;
+                    }
+
+                    &:focus {
+                        color: #f4c613;
+                        border-bottom: 2px solid #f4c613;
+                    }
+                }
+
+                a.active {
+                    color: #f4c613;
+                    border-bottom: 2px solid #f4c613;
+                }
+            }
+        }
+ 
+    }
+    
+}
+//end nav
+
+//top
+#top{
+    height: 50px;
+    background-color: #0d0d0dd6;
+    ul{
+        padding: 10px;
+        li{
+            padding: 0 10px;
+            &:nth-child(1){
+                    border-right: 1px solid $mau_icon;
+            }
+            a{
+                background-color: transparent;
+                margin: 0;
+                padding: 0;
+                span{
+                    color: #8e8d8d;
+                    font-family: ProximaNova Regular;
+                    font-size: $cochunho;
+                    padding: 0 5px;
+                }
+                 i{
+                    color: $mau_icon;
+                    border: 1px solid $mau_icon;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    text-align: center;
+                    line-height: 30px;
+                     -webkit-transition: 0.4s;
+                     transition: 0.4s;
+                     &:hover{
+                         border: 1px solid #f4c613;
+                         color: #f4c613;
+                     } 
+                }
+            }   
+        }
+    }
+}
+//end top
+
+//banner
+.banner{
+    height: 450px;
+    .banner-fix{
+        background-image: url('../images/banner/banner-b3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        .container{
+            display: table;
+        }
+
+        .title-lg{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            position: relative;
+            top: 350px;
+            h1{
+                font-family: ProximaNova Bold;
+                font-size: 36px;
+                color: #ceb04a;
+                text-transform: uppercase;
+            }
+            .line-start{
+                position: relative;
+                display: inline-block;
+                height: 20px;
+                width: 35px;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                &:before{
+                    position: absolute;
+                    right: 100%;
+                    top: 10px;
+                    content:"";
+                    background-color: #ceb04a;
+                    width: 200px;
+                    height: 2px;    
+                }
+                &:after{
+                    position: absolute;
+                    left: 100%;
+                    top: 10px;
+                    content:"";
+                    background-color: #ceb04a;
+                    width: 200px;
+                    height: 2px;
+                }
+                span{
+                    font-size: 20px;
+                    color: #ceb04a;
+                }
+            }
+        }
+    
+    }
+}
+//end banner
+
+//news-list
+#news-list{
+    margin-top: 44px;
+    height: auto;
+    background-image: url('../images/bg/bg-content.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    ul.nav-tabs{
+        border-bottom: none;
+        margin-bottom: 50px;
+        li{
+            width: 50%;
+            border-bottom: 1px solid #ceb04a;
+            border-right: 1px solid #ceb04a;
+            border-left: 1px solid #ceb04a;
+            transition: 0.4s;
+            a{
+                font-family: ProximaNova Bold;
+                font-size: 18px;
+                color: #979797;
+                text-transform: uppercase;
+                text-align: center;
+                border: none;
+                &:hover{
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+        }
+        li.active{
+            border-bottom: 0;
+            border-top: 1px solid #ceb04a;
+            margin-bottom: 0;
+            transition: 0.4s;
+            a{
+                background-color: transparent;
+                border: none;
+                color: #ceb04a;
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            
+        }
+    }
+    
+    .tab-content{
+        .tab-content-items{
+            margin-bottom: 36px;
+            .news-event-right{
+                h4{
+                    font-family: ProximaNova Bold;
+                    font-size: 36px;
+                    color: #f2f2f2;
+                    margin: 0px;
+                    text-transform: uppercase;
+                }
+                span{
+                    font-family: ProximaNova Regular;
+                    font-size: 16px;
+                    color: #f2f2f2;
+                    i{
+                        margin-right: 3px;
+                    }
+                }
+                p{
+                    margin-top: 3px;
+                    font-family: ProximaNova Regular;
+                    font-size: 14px;
+                    color: #f2f2f2;
+                    text-transform: uppercase;
+                    height: 70px;
+                    overflow: hidden;
+                }
+                a{
+                    font-family: ProximaNova Regular;
+                    font-size: 14px;
+                    color: #ceb04a;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    i.fa{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .tab-content-event{
+            margin-bottom: 50px;
+            a{
+                font-family: ProximaNova Regular;
+                font-size: 14px;
+                color: #ceb04a;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: #07050d;
+                padding: 10px 15px;
+                position: absolute;
+                bottom: 0;
+                right: 15px;
+                i.fa{
+                        font-size: 10px;
+                    }
+            }
+        }
+    }
+    
+    .news-pagination{
+        ul.pagination{
+            li{
+                
+                a{
+                    background-color: transparent;
+                    border-radius: 0;
+                    border: 1px solid #979797;
+                    font-family: ProximaNova Bold;
+                    color: #979797;
+                    margin: 0 4px;
+                    font-size: 18px;
+                    padding: 5px 12px;
+                    &:hover{
+                        border: 1px solid #7a6a37;
+                        color: #ceb04a;
+                    }
+                    &:focus{
+                        border: 1px solid #7a6a37;
+                        color: #ceb04a;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+//end news-list
+
+//address-b3
+#address-b3{
+    margin-top: 66px;
+    margin-bottom: 75px;
+    img{
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    small{
+        font-family: RobotoSlab Light;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #a48541;
+        display: block;
+    }
+    .address {
+        padding: 45px;
+        border-left: 2px solid #7a6a37;
+        h4{
+            font-family: ProximaNova Bold;
+            font-size: 18px;
+            color: #a48541;
+            text-transform: uppercase;
+        }
+        p{
+            font-family: ProximaNova Thin;
+            font-size: 14px;
+            color: #a48541;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}
+//end address-b3
+
+//footer
+#footer {
+    .footer-map {
+	    height: 300px;
+        width: 100%;
+    }
+    .footer-icon {
+	    height: 190px;
+        background-color: $mau_den;
+        a.last-icon{
+            border-right: none;
+        }
+        a{
+            display: block;
+            margin: 40px 0;
+            padding: 40px 0;
+            text-decoration: none;
+            border-right: 2px solid $mau_icon;
+            &:hover i{
+                color: #ceb04a;
+            }
+
+            i{
+                color: $mau_icon;
+                font-size: 30px;
+                transition: 0.4s;
+            }
+        }
+    }
+	.footer-buttom {
+	    height: 94px;
+        width: 100%;
+        background-color:$mau_bottom;
+        .container{
+            height: 94px;
+        }
+        p{
+            font-family: ProximaNova Regular;
+            color: #7a7a7a;
+            font-size: 16px;
+            line-height: 23px;
+            text-transform: uppercase;
+            margin-top: 40px;
+            
+            i{
+                font-size: 13px;
+            }
+        }
+    }
+}
+//end footer
+
+@import "reponsive.scss";

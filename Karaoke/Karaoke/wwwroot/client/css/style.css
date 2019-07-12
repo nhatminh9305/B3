@@ -1,0 +1,1011 @@
+@font-face { font-family: MyriadPro Regular; src: url(../font/MyriadPro-Regular.otf); }
+@font-face { font-family: RobotoSlab Light; src: url(../font/RobotoSlab-Light.ttf); }
+@font-face { font-family: ProximaNova Regular; src: url(../font/ProximaNova-Regular.ttf); }
+@font-face { font-family: ProximaNova Light; src: url(../font/ProximaNova-Light.otf); }
+@font-face { font-family: ProximaNova Bold; src: url(../font/ProximaNova-Bold.otf); }
+@font-face { font-family: ProximaNova Thin; src: url(../font/ProximaNova-Thin.otf); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000338}}
+body { background-color: #0d0d0d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000343}}
+#slide-home .bg-gradient { height: 100%; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000348}}
+#slide-home .slide_ { position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000350}}
+#slide-home .slide_ .owl-nav { position: absolute; top: 50%; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000354}}
+#slide-home .slide_ .owl-nav .owl-prev { background-color: transparent; position: absolute; left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000358}}
+#slide-home .slide_ .owl-nav .owl-prev i.fa { font-size: 70px; color: #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000363}}
+#slide-home .slide_ .owl-nav .owl-prev:focus i.fa { border: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000368}}
+#slide-home .slide_ .owl-nav .owl-next { background-color: transparent; position: absolute; right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000372}}
+#slide-home .slide_ .owl-nav .owl-next i.fa { font-size: 70px; color: #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000378}}
+#slide-home .slide_ .owl-dots { position: absolute; bottom: 20px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000386}}
+#slide-home .slide_ .owl-dots .owl-dot span { background: none; border: 1px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000392}}
+#slide-home .slide_ .owl-dots .owl-dot.active span { background: #7a6a37; border: 1px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\0000398}}
+#slide-home .slide_ .slide_item { position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003100}}
+#slide-home .slide_ .slide_item .slide-content { position: absolute; top: 45%; left: 50%; width: 100%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003106}}
+#slide-home .slide_ .slide_item .slide-content h1 { font-size: 86px; color: #f2f2f2; line-height: 82px; text-align: center; font-family: ProximaNova Thin; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003119}}
+.room-single { margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003122}}
+.room-single .room-single-item .room-items { position: relative; margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003125}}
+.room-single .room-single-item .room-items .img-border { border: 1px solid; -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003129}}
+.room-single .room-single-item .room-items .img-border img { -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003136}}
+.room-single .room-single-item .room-items:hover .room-item-info .room-item-info-visible { opacity: 0; visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003140}}
+.room-single .room-single-item .room-items:hover .room-item-info .room-item-info-overload { opacity: 1; visibility: visible; background: #0d0d0d; background: -webkit-gradient(linear, left top, left bottom, from(#0d0d0d), color-stop(50%, rgba(13, 13, 13, 0.2441351541)), to(#0d0d0d)); background: linear-gradient(180deg, #0d0d0d 0%, rgba(13, 13, 13, 0.2441351541) 50%, #0d0d0d 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003147}}
+.room-single .room-single-item .room-items:hover .img-border { border: 1px solid #a48541; -webkit-transform: translate(-10px, 10px); transform: translate(-10px, 10px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003150}}
+.room-single .room-single-item .room-items:hover .img-border img { -webkit-transform: translate(10px, -10px); transform: translate(10px, -10px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003155}}
+.room-single .room-single-item .room-items .room-item-info { position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; display: block; background-color: #0d0d0d75; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003163}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible { position: absolute; bottom: 0; left: 0; width: 100%; height: auto; background: #0d0d0d; background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(13, 13, 13, 0.3197654062)), to(#0d0d0d)); background: linear-gradient(180deg, rgba(13, 13, 13, 0.3197654062) 50%, #0d0d0d 100%); -webkit-transition: 0.4s linear; transition: 0.4s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003174}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible h4 { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003177}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible h4 a { font-family: ProximaNova Thin; text-decoration: none; color: #f2f2f2; font-size: 30px; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003184}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible h4 a i.fa { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003190}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible ul.room-info { padding: 0; margin-left: 10px; margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003194}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible ul.room-info li { font-family: ProximaNova Light; color: #f2c783; font-size: 16px; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003200}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-visible ul.room-info li i.fa { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003207}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload { position: absolute; bottom: 0; left: 0; height: 100%; width: 100%; opacity: 0; visibility: hidden; -webkit-transition: 0.4s linear; transition: 0.4s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003217}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload h4 { margin-bottom: 0; margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003220}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload h4 a { font-family: ProximaNova Thin; text-decoration: none; color: #f2f2f2; font-size: 30px; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003227}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload h4 a i.fa { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003233}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload ul.room-info { margin-bottom: 25px; padding: 0; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003238}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload ul.room-info li { font-family: ProximaNova Light; color: #f2c783; font-size: 16px; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003244}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload ul.room-info li i.fa { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003251}}
+.room-single .room-single-item .room-items .room-item-info .room-item-info-overload .btn-room { background-color: #7a6a37; font-family: ProximaNova Bold; font-size: 18px; color: #f2f2f2; border-radius: 0px; padding: 10px; text-transform: uppercase; position: absolute; bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003266}}
+.room-single .title-lg { text-align: center; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003269}}
+.room-single .title-lg h1 { font-family: ProximaNova Bold; font-size: 36px; color: #ceb04a; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003275}}
+.room-single .title-lg .line-start { position: relative; display: inline-block; height: 20px; width: 35px; font-size: 16px; line-height: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003283}}
+.room-single .title-lg .line-start:before { position: absolute; right: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003292}}
+.room-single .title-lg .line-start:after { position: absolute; left: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003301}}
+.room-single .title-lg .line-start span { font-size: 20px; color: #ceb04a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003309}}
+#news { margin-top: 80px; background-image: url("../images/news/bg-news-home.png"); background-repeat: no-repeat; background-position: center; width: 100%; height: 400px; margin-bottom: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003318}}
+#news .news-right .title-news { color: #f2f2f2; text-transform: uppercase; font-family: ProximaNova Bold; font-size: 24px; margin-top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003325}}
+#news .news-right .news-items { padding: 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003327}}
+#news .news-right .news-items .line-buttom.line-hide { border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003330}}
+#news .news-right .news-items .line-buttom { padding-left: 0; border-bottom: 1px solid #f2f2f28f; padding-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003334}}
+#news .news-right .news-items .line-buttom .content { font-family: ProximaNova Regular; color: #f2f2f2; font-size: 15px; line-height: 24px; text-transform: uppercase; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003343}}
+#news .news-right .news-items .line-buttom .calendar { color: #f2f2f28f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003345}}
+#news .news-right .news-items .line-buttom .calendar i.fa { margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003353}}
+#news .news-left .line { margin: 74px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003355}}
+#news .news-left .line h3 { color: #f2f2f2; font-family: ProximaNova Bold; font-size: 36px; line-height: 24px; text-transform: uppercase; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003363}}
+#news .news-left .line .line_p { padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003365}}
+#news .news-left .line .line_p .content { font-family: ProximaNova Regular; color: #f2f2f2; font-size: 17px; line-height: 24px; text-transform: uppercase; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003373}}
+#news .news-left .line .line_p .calendar { color: #f2f2f28f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003375}}
+#news .news-left .line .line_p .calendar i.fa { margin-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003385}}
+#gallery .gellary_ { position: relative; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003388}}
+#gallery .gellary_ .gallery-text { position: absolute; left: 50px; bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003393}}
+#gallery .gellary_ .gallery-text h3 { font-family: ProximaNova Bold; font-size: 60px; color: #fff; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003399}}
+#gallery .gellary_ .gallery-text h4 { font-family: ProximaNova Bold; font-size: 72px; color: #fff; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003408}}
+#gallery .title-lg { text-align: center; position: relative; margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003412}}
+#gallery .title-lg h1 { font-family: ProximaNova Bold; font-size: 36px; color: #ceb04a; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003418}}
+#gallery .title-lg .line-start { position: relative; display: inline-block; height: 20px; width: 35px; font-size: 16px; line-height: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003426}}
+#gallery .title-lg .line-start:before { position: absolute; right: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003435}}
+#gallery .title-lg .line-start:after { position: absolute; left: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003444}}
+#gallery .title-lg .line-start span { font-size: 20px; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003450}}
+#gallery .room-img { width: 100%; height: auto; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003455}}
+#gallery .room-img .img-pd { padding-left: 10px; padding-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003458}}
+#gallery .room-img .img-pd .room-img-item { margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003467}}
+#myModal .modal-content { border: 0px; border-radius: 0px; width: 700px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003471}}
+#myModal .modal-content .modal-header { padding: 10px; background-color: #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003474}}
+#myModal .modal-content .modal-header span { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003477}}
+#myModal .modal-content .modal-header h4.modal-title { margin: 0; font-family: ProximaNova Bold; font-size: 20px; color: #f2f2f2; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003486}}
+#myModal .modal-body { padding: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003488}}
+#myModal .modal-body p { font-family: ProximaNova Regular; font-size: 17px; color: #040404; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003493}}
+#myModal .modal-body p span { font-family: ProximaNova Bold; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003499}}
+#myModal .modal-body .booking-room .form-group { margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003502}}
+#myModal .modal-body .booking-room label { font-family: ProximaNova Regular; font-size: 15px; color: #040404; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003507}}
+#myModal .modal-body .booking-room input { border-radius: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003510}}
+#myModal .modal-body .booking-room .btn-booking { background-color: #7a6a37; font-family: ProximaNova Bold; color: #f2f2f2; text-transform: uppercase; border-radius: 0px; padding: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003526}}
+#room .room-items { position: relative; margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003531}}
+#room .room-items:hover .room-item-info .room-item-info-visible { opacity: 0; visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003535}}
+#room .room-items:hover .room-item-info .room-item-info-overload { opacity: 1; visibility: visible; background: #0d0d0d; background: -webkit-gradient(linear, left top, left bottom, from(#0d0d0d), color-stop(50%, rgba(13, 13, 13, 0.2441351541)), to(#0d0d0d)); background: linear-gradient(180deg, #0d0d0d 0%, rgba(13, 13, 13, 0.2441351541) 50%, #0d0d0d 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003543}}
+#room .room-items .room-item-info { position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; display: block; background-color: #0d0d0d75; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003551}}
+#room .room-items .room-item-info .room-item-info-visible { position: absolute; bottom: 0; left: 0; width: 100%; height: auto; background: #0d0d0d; background: -webkit-gradient(linear, left top, left bottom, from(#0d0d0d), color-stop(50%, rgba(13, 13, 13, 0.2441351541)), to(#0d0d0d)); background: linear-gradient(180deg, #0d0d0d 0%, rgba(13, 13, 13, 0.2441351541) 50%, #0d0d0d 100%); -webkit-transition: 0.4s linear; transition: 0.4s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003561}}
+#room .room-items .room-item-info .room-item-info-visible h4 { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003564}}
+#room .room-items .room-item-info .room-item-info-visible h4 a { font-family: ProximaNova Thin; text-decoration: none; color: #f2f2f2; font-size: 30px; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003571}}
+#room .room-items .room-item-info .room-item-info-visible h4 a i.fa { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003577}}
+#room .room-items .room-item-info .room-item-info-visible ul.room-info { padding: 0; margin-left: 10px; margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003581}}
+#room .room-items .room-item-info .room-item-info-visible ul.room-info li { font-family: ProximaNova Light; color: #f2c783; font-size: 16px; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003587}}
+#room .room-items .room-item-info .room-item-info-visible ul.room-info li i.fa { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003594}}
+#room .room-items .room-item-info .room-item-info-overload { position: absolute; bottom: 0; left: 0; height: 100%; width: 100%; opacity: 0; visibility: hidden; -webkit-transition: 0.4s linear; transition: 0.4s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003604}}
+#room .room-items .room-item-info .room-item-info-overload h4 { margin-bottom: 0; margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003607}}
+#room .room-items .room-item-info .room-item-info-overload h4 a { font-family: ProximaNova Thin; text-decoration: none; color: #f2f2f2; font-size: 30px; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003614}}
+#room .room-items .room-item-info .room-item-info-overload h4 a i.fa { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003620}}
+#room .room-items .room-item-info .room-item-info-overload ul.room-info { margin-bottom: 25px; padding: 0; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003625}}
+#room .room-items .room-item-info .room-item-info-overload ul.room-info li { font-family: ProximaNova Light; color: #f2c783; font-size: 16px; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003631}}
+#room .room-items .room-item-info .room-item-info-overload ul.room-info li i.fa { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003638}}
+#room .room-items .room-item-info .room-item-info-overload .btn-room { background-color: #7a6a37; font-family: ProximaNova Bold; font-size: 18px; color: #f2f2f2; border-radius: 0px; padding: 10px; text-transform: uppercase; position: absolute; bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003656}}
+#room-details { margin-top: 65px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003660}}
+#room-details .room-list .room-list-item .room-detail { margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003662}}
+#room-details .room-list .room-list-item .room-detail .room-detail-left { border: 0px solid #7a6a37; -webkit-transform: translate(0px, 15px); transform: translate(0px, 15px); -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003666}}
+#room-details .room-list .room-list-item .room-detail .room-detail-left img { -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003671}}
+#room-details .room-list .room-list-item .room-detail .room-detail-left:hover { border: 1px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003673}}
+#room-details .room-list .room-list-item .room-detail .room-detail-left:hover img { -webkit-transform: translate(15px, -15px); transform: translate(15px, -15px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003679}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right { padding-left: 15px; height: 394px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003682}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right h3 { font-family: ProximaNova Light; font-size: 48px; color: #f2f2f2; margin-top: 0; margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003690}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right p { font-family: ProximaNova Light; font-size: 15px; color: #f2f2f2; line-height: 20px; height: 160px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003698}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right ul.room-info { margin-bottom: 25px; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003701}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right ul.room-info li { font-family: ProximaNova Light; color: #f2c783; font-size: 16px; list-style: none; margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003707}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right ul.room-info li i.fa { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003713}}
+#room-details .room-list .room-list-item .room-detail .room-detail-right a.btn-room { background-color: #7a6a37; font-family: ProximaNova Bold; font-size: 18px; color: #f2f2f2; border-radius: 0px; padding: 10px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003724}}
+#room-details .room-list .room-list-item .room-img { width: 100%; height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003727}}
+#room-details .room-list .room-list-item .room-img .img-pd { padding-left: 10px; padding-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003730}}
+#room-details .room-list .room-list-item .room-img .img-pd .room-img-item { margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003738}}
+#room-details .owl-theme .owl-nav { position: relative; font-family: ProximaNova Thin; margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003743}}
+#room-details .owl-theme .owl-nav .owl-prev { position: absolute; left: 0; background: transparent; font-size: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003748}}
+#room-details .owl-theme .owl-nav .owl-prev i.fa { font-size: 20px; margin-right: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003753}}
+#room-details .owl-theme .owl-nav .owl-next { position: absolute; right: 0; background: transparent; font-size: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003758}}
+#room-details .owl-theme .owl-nav .owl-next i.fa { font-size: 20px; margin-left: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003772}}
+#personnel { margin-top: 80px; background-image: url("../images/bg/bg-content.png"); background-position: center; background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003778}}
+#personnel .personnel-item h5 { font-family: ProximaNova Bold; font-size: 14px; color: #f2f2f2; text-transform: uppercase; margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003785}}
+#personnel .personnel-item p { font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003791}}
+#personnel .personnel-item span { color: #f2f2f2; margin-bottom: 30px; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003798}}
+#personnel .personnel-title h4 { font-family: ProximaNova Bold; font-size: 36px; color: #f2f2f2; text-transform: uppercase; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003805}}
+#personnel .personnel-title span { font-family: ProximaNova Regular; font-size: 16px; color: #f2f2f257; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003809}}
+#personnel .personnel-title span i.fa { margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003815}}
+#personnel .personnel-footer p.yeu-cau { font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003821}}
+#personnel .personnel-footer ul.yeu-cau-ct { padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003823}}
+#personnel .personnel-footer ul.yeu-cau-ct li { font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; text-transform: uppercase; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003831}}
+#personnel .personnel-footer ul.personnel-address { padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003834}}
+#personnel .personnel-footer ul.personnel-address li { font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; text-transform: uppercase; list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003840}}
+#personnel .personnel-footer ul.personnel-address li span { font-family: ProximaNova Bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003850}}
+#contact { margin-top: 50px; background-image: url("../images/bg/bg-content.png"); background-repeat: no-repeat; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003857}}
+#contact .contact-left .contact-info h4 { font-family: ProximaNova Bold; font-size: 20px; color: #f2f2f2; margin: 0px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003864}}
+#contact .contact-left .contact-info small { font-family: ProximaNova Regular; font-size: 15px; color: #f2f2f2; display: block; margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003871}}
+#contact .contact-left .contact-info p { font-family: ProximaNova Regular; font-size: 16px; color: #f2f2f2; margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003882}}
+#contact .contact-right .contact-right-form label { font-family: ProximaNova Thin; font-size: 15px; color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003887}}
+#contact .contact-right .contact-right-form .form-control { border-radius: 0px; margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003891}}
+#contact .contact-right .contact-right-form button.btn-contact { font-family: ProximaNova Bold; color: #f2f2f2; font-size: 16px; text-transform: uppercase; width: 300px; text-align: center; background-color: #7a6a37; border-radius: 0; padding: 10px; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003903}}
+#contact .contact-right .contact-right-form button.btn-contact:hover { background-color: #ceb04a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003912}}
+.banner .banner-fix.contact { background-image: url("../images/bg/bg-contact.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 500px; position: absolute; top: 0; left: 0; z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003929}}
+#menu-list { margin-top: 20px; background-image: url("../images/bg/bg-content.png"); background-position: top; background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003934}}
+#menu-list .title-lg { text-align: center; position: relative; margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003938}}
+#menu-list .title-lg h1 { font-family: ProximaNova Bold; font-size: 36px; color: #ceb04a; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003944}}
+#menu-list .title-lg .line-start { position: relative; display: inline-block; height: 20px; width: 35px; font-size: 16px; line-height: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003952}}
+#menu-list .title-lg .line-start:before { position: absolute; right: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003961}}
+#menu-list .title-lg .line-start:after { position: absolute; left: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003970}}
+#menu-list .title-lg .line-start span { font-size: 20px; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003977}}
+#menu-list ul.nav-tabs { border-bottom: 1px solid #ceb04a; margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003980}}
+#menu-list ul.nav-tabs li { margin-bottom: -1px; padding: 0 9px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003983}}
+#menu-list ul.nav-tabs li a { font-family: ProximaNova Bold; font-size: 16px; color: #979797; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003988}}
+#menu-list ul.nav-tabs li a:hover { background-color: transparent; border-color: transparent; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\00003994}}
+#menu-list ul.nav-tabs li:nth-child(1) { margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031000}}
+#menu-list ul.nav-tabs li.active a { background-color: transparent; border-color: transparent; color: #ceb04a; border-radius: 0; border: 1px solid #ceb04a; border-bottom: 1px solid #0d0d0d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031013}}
+#menu-list .tab-content .menu-list-item { margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031016}}
+#menu-list .tab-content .menu-list-item .menu-list-item-right h4 { margin-top: 0; margin-bottom: 5px; font-family: ProximaNova Bold; font-size: 18px; color: #ceb04a; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031024}}
+#menu-list .tab-content .menu-list-item .menu-list-item-right p { font-family: ProximaNova Regular; font-size: 16px; color: #bcbcbc; line-height: 20px; height: 82px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031040}}
+#menu-list .news-pagination ul.pagination li a { background-color: transparent; border-radius: 0; border: 1px solid #979797; font-family: ProximaNova Bold; color: #979797; margin: 0 4px; font-size: 18px; padding: 5px 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031049}}
+#menu-list .news-pagination ul.pagination li a:hover { border: 1px solid #7a6a37; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031053}}
+#menu-list .news-pagination ul.pagination li a:focus { border: 1px solid #7a6a37; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031062}}
+#menu-list .comming_ a { text-decoration: none; text-transform: uppercase; color: #ceb04a; font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031067}}
+#menu-list .comming_ a i.fa { font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031074}}
+#menu-slide { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031077}}
+#menu-slide #myCarousel .carousel-control { width: 8%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031080}}
+#menu-slide #myCarousel .left { background-image: url("../images/icon/chevron-left.png"); background-repeat: no-repeat; background-position: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031085}}
+#menu-slide #myCarousel .right { background-image: url("../images/icon/chevron-right.png"); background-repeat: no-repeat; background-position: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031094}}
+.banner .banner-fix.menu { background-image: url("../images/menu/bg-menu.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 500px; position: absolute; top: 0; left: 0; z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031111}}
+#news-detail { margin-top: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031114}}
+#news-detail .news-detail-left h4 { font-family: ProximaNova Bold; font-size: 36px; color: #f2f2f2; margin: 0px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031121}}
+#news-detail .news-detail-left span { font-family: ProximaNova Regular; font-size: 16px; color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031125}}
+#news-detail .news-detail-left span i { margin-right: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031129}}
+#news-detail .news-detail-left p { margin-top: 30px; font-family: ProximaNova Regular; font-size: 15px; color: #f2f2f2; line-height: 20px; margin-bottom: 0; text-align: justify; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031137}}
+#news-detail .news-detail-left p img { text-align: center; padding: 20px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031146}}
+#news-detail .news-detail-right .box-title h4 { font-family: ProximaNova Bold; font-size: 18px; color: #ceb04a; text-transform: uppercase; border: 1px solid #ceb04a; padding: 15px 30px; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031156}}
+#news-detail .news-detail-right .news-detail-item { margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031158}}
+#news-detail .news-detail-right .news-detail-item h4 { margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031160}}
+#news-detail .news-detail-right .news-detail-item h4 a { font-family: ProximaNova Bold; font-size: 18px; color: #f2f2f2; text-decoration: none; text-transform: uppercase; -webkit-transition: 0.4s all; -webkit-transition: 0.2s all; transition: 0.2s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031168}}
+#news-detail .news-detail-right .news-detail-item h4 a:hover { color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031174}}
+#news-detail .news-detail-right .news-detail-item span { font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031179}}
+#news-detail .news-detail-right .news-detail-item span i { margin-right: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031189}}
+header { position: absolute; top: 0; left: 0; z-index: 99; width: 100%; margin-top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031197}}
+header nav.navbar-default { background-color: transparent; border-color: transparent; background-image: none; -webkit-box-shadow: none; box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031204}}
+header nav.navbar { margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031210}}
+header .site-nav-wapper #mobile-nav { position: fixed; top: 0; left: 0; width: 100%; height: 0; overflow-y: hidden; background-color: rgba(37, 37, 34, 0.9); z-index: 3; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031222}}
+header .site-nav-wapper #mobile-nav #mobile-nav-content { text-align: center; width: 100%; position: relative; top: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031229}}
+header .site-nav-wapper #mobile-nav #mobile-nav-content ul.nav li { margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031232}}
+header .site-nav-wapper #mobile-nav #mobile-nav-content ul.nav li a { font-family: ProximaNova Regular; font-size: 17px; color: #f2f2f2; font-weight: 400; text-transform: uppercase; display: inline; -webkit-transition: .3s; transition: .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031242}}
+header .site-nav-wapper #mobile-nav #mobile-nav-content ul.nav li a:hover, header .site-nav-wapper #mobile-nav #mobile-nav-content ul.nav li a:focus { background: none; color: #f4c613; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031248}}
+header .site-nav-wapper #mobile-nav #mobile-nav-content ul.nav li a.active { color: #f4c613; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031255}}
+header .site-nav-wapper #mobile-nav #mobile-nav-close-btn { font-size: 50px; color: #f4c613; cursor: pointer; position: absolute; top: 0px; right: 18px; z-index: 4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031266}}
+header .site-nav-wapper .navbar-header { position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031269}}
+header .site-nav-wapper .navbar-header #mobile-nav-open-btn { color: #ceb04a; font-size: 30px; cursor: pointer; position: absolute; right: 20px; top: 30px; opacity: 0; visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031280}}
+header .site-nav-wapper .navbar-header .navbar-brand { height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031282}}
+header .site-nav-wapper .navbar-header .navbar-brand .title-logo { text-align: center; font-size: 12px; font-family: RobotoSlab Light; line-height: 24px; text-transform: uppercase; color: #a48541; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031294}}
+header .site-nav-wapper .collapse ul.nav { padding: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031298}}
+header .site-nav-wapper .collapse ul.navbar-nav li { padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031301}}
+header .site-nav-wapper .collapse ul.navbar-nav li a { font-size: 15px; color: #f2f1f1; font-family: ProximaNova Regular; line-height: 24px; text-transform: uppercase; letter-spacing: 1px; padding: 5px 0; display: block; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031313}}
+header .site-nav-wapper .collapse ul.navbar-nav li a:hover { background: none; color: #f4c613; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031318}}
+header .site-nav-wapper .collapse ul.navbar-nav li a:focus { color: #f4c613; border-bottom: 2px solid #f4c613; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031324}}
+header .site-nav-wapper .collapse ul.navbar-nav li a.active { color: #f4c613; border-bottom: 2px solid #f4c613; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031337}}
+#top { height: 50px; background-color: #0d0d0dd6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031340}}
+#top ul { padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031342}}
+#top ul li { padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031344}}
+#top ul li:nth-child(1) { border-right: 1px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031347}}
+#top ul li a { background-color: transparent; margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031351}}
+#top ul li a span { color: #8e8d8d; font-family: ProximaNova Regular; font-size: 14px; padding: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031357}}
+#top ul li a i { color: #7a6a37; border: 1px solid #7a6a37; width: 30px; height: 30px; border-radius: 100%; text-align: center; line-height: 30px; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031367}}
+#top ul li a i:hover { border: 1px solid #f4c613; color: #f4c613; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031379}}
+.banner { height: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031381}}
+.banner .banner-fix { background-image: url("../images/banner/banner-b3.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 500px; position: absolute; top: 0; left: 0; z-index: -1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031393}}
+.banner .banner-fix .container { display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031397}}
+.banner .banner-fix .title-lg { display: table-cell; vertical-align: middle; text-align: center; position: relative; top: 350px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031403}}
+.banner .banner-fix .title-lg h1 { font-family: ProximaNova Bold; font-size: 36px; color: #ceb04a; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031409}}
+.banner .banner-fix .title-lg .line-start { position: relative; display: inline-block; height: 20px; width: 35px; font-size: 16px; line-height: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031417}}
+.banner .banner-fix .title-lg .line-start:before { position: absolute; right: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031426}}
+.banner .banner-fix .title-lg .line-start:after { position: absolute; left: 100%; top: 10px; content: ""; background-color: #ceb04a; width: 200px; height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031435}}
+.banner .banner-fix .title-lg .line-start span { font-size: 20px; color: #ceb04a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031447}}
+#news-list { margin-top: 44px; height: auto; background-image: url("../images/bg/bg-content.png"); background-repeat: no-repeat; background-position: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031454}}
+#news-list ul.nav-tabs { border-bottom: none; margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031457}}
+#news-list ul.nav-tabs li { width: 50%; border-bottom: 1px solid #ceb04a; border-right: 1px solid #ceb04a; border-left: 1px solid #ceb04a; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031463}}
+#news-list ul.nav-tabs li a { font-family: ProximaNova Bold; font-size: 18px; color: #979797; text-transform: uppercase; text-align: center; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031470}}
+#news-list ul.nav-tabs li a:hover { background-color: transparent; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031476}}
+#news-list ul.nav-tabs li.active { border-bottom: 0; border-top: 1px solid #ceb04a; margin-bottom: 0; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031481}}
+#news-list ul.nav-tabs li.active a { background-color: transparent; border: none; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031485}}
+#news-list ul.nav-tabs li.active a:hover { background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031494}}
+#news-list .tab-content .tab-content-items { margin-bottom: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031497}}
+#news-list .tab-content .tab-content-items .news-event-right h4 { font-family: ProximaNova Bold; font-size: 36px; color: #f2f2f2; margin: 0px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031504}}
+#news-list .tab-content .tab-content-items .news-event-right span { font-family: ProximaNova Regular; font-size: 16px; color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031508}}
+#news-list .tab-content .tab-content-items .news-event-right span i { margin-right: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031512}}
+#news-list .tab-content .tab-content-items .news-event-right p { margin-top: 3px; font-family: ProximaNova Regular; font-size: 14px; color: #f2f2f2; text-transform: uppercase; height: 70px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031521}}
+#news-list .tab-content .tab-content-items .news-event-right a { font-family: ProximaNova Regular; font-size: 14px; color: #ceb04a; text-transform: uppercase; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031527}}
+#news-list .tab-content .tab-content-items .news-event-right a i.fa { font-size: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031533}}
+#news-list .tab-content .tab-content-event { margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031535}}
+#news-list .tab-content .tab-content-event a { font-family: ProximaNova Regular; font-size: 14px; color: #ceb04a; text-transform: uppercase; text-decoration: none; background-color: #07050d; padding: 10px 15px; position: absolute; bottom: 0; right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031546}}
+#news-list .tab-content .tab-content-event a i.fa { font-size: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031557}}
+#news-list .news-pagination ul.pagination li a { background-color: transparent; border-radius: 0; border: 1px solid #979797; font-family: ProximaNova Bold; color: #979797; margin: 0 4px; font-size: 18px; padding: 5px 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031566}}
+#news-list .news-pagination ul.pagination li a:hover { border: 1px solid #7a6a37; color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031570}}
+#news-list .news-pagination ul.pagination li a:focus { border: 1px solid #7a6a37; color: #ceb04a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031583}}
+#address-b3 { margin-top: 66px; margin-bottom: 75px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031586}}
+#address-b3 img { display: block; text-align: center; width: auto; height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031592}}
+#address-b3 small { font-family: RobotoSlab Light; font-size: 20px; text-transform: uppercase; color: #a48541; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031599}}
+#address-b3 .address { padding: 45px; border-left: 2px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031602}}
+#address-b3 .address h4 { font-family: ProximaNova Bold; font-size: 18px; color: #a48541; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031608}}
+#address-b3 .address p { font-family: ProximaNova Thin; font-size: 14px; color: #a48541; font-weight: bold; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031621}}
+#footer .footer-map { height: 300px; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031625}}
+#footer .footer-icon { height: 190px; background-color: #0d0d0d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031628}}
+#footer .footer-icon a.last-icon { border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031631}}
+#footer .footer-icon a { display: block; margin: 40px 0; padding: 40px 0; text-decoration: none; border-right: 2px solid #7a6a37; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031637}}
+#footer .footer-icon a:hover i { color: #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031641}}
+#footer .footer-icon a i { color: #7a6a37; font-size: 30px; -webkit-transition: 0.4s; transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031648}}
+#footer .footer-buttom { height: 94px; width: 100%; background-color: #050505; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031652}}
+#footer .footer-buttom .container { height: 94px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031655}}
+#footer .footer-buttom p { font-family: ProximaNova Regular; color: #7a7a7a; font-size: 16px; line-height: 23px; text-transform: uppercase; margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/style\.scss}line{font-family:\000031663}}
+#footer .footer-buttom p i { font-size: 13px; }
+
+@media (min-width: 1200px) and (max-width: 1299px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000033}}
+  * { margin: 0; padding: 0; } }
+@media (min-width: 992px) and (max-width: 1199px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000311}}
+  * { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000321}}
+  header .site-nav-wapper .collapse ul.nav { padding: 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000324}}
+  header .site-nav-wapper .collapse ul.nav li { padding: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000326}}
+  header .site-nav-wapper .collapse ul.nav li a { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000334}}
+  header .site-nav-wapper .navbar-brand img { width: 117px; height: 64px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000338}}
+  header .site-nav-wapper .navbar-brand .title-logo { font-size: 10px; } }
+@media (min-width: 768px) and (max-width: 991px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000348}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000352}}
+  header .site-nav-wapper .navbar-header { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000354}}
+  header .site-nav-wapper .navbar-header .navbar-brand { position: relative; left: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000357}}
+  header .site-nav-wapper .navbar-header .navbar-brand img { width: 117px; height: 64px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000365}}
+  header .site-nav-wapper .collapse ul.nav { padding: 0; text-align: center; width: 100%; margin-top: -20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000370}}
+  header .site-nav-wapper .collapse ul.nav li { padding: 5px 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000372}}
+  header .site-nav-wapper .collapse ul.nav li a { font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000381}}
+  #menu-list { margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000383}}
+  #menu-list ul.nav-tabs { margin-bottom: 30px; border-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000387}}
+  #menu-list ul.nav-tabs li a { font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000390}}
+  #menu-list ul.nav-tabs li:nth-child(1) { margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\0000395}}
+  #menu-list ul.nav-tabs li.active a { border: 1px solid #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003102}}
+  #room-details { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003108}}
+  #room-details .room-list .room-list-item .room-detail .room-detail-right h3 { margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003113}}
+  #room-details .room-list .room-list-item .room-img { margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003123}}
+  #news-list .tab-content #news { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003129}}
+  #news-list .tab-content .tab-content-items .news-event-right h4 { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003132}}
+  #news-list .tab-content .tab-content-items .news-event-right span { font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003135}}
+  #news-list .tab-content .tab-content-items .news-event-right p { font-size: 12px; height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003145}}
+  #address-b3 .logo-bottom { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003151}}
+  #footer .footer-icon { height: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003153}}
+  #footer .footer-icon a { margin: 40px -15px; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003158}}
+  #footer .footer-buttom { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003160}}
+  #footer .footer-buttom .container { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003162}}
+  #footer .footer-buttom .container p { font-size: 12px; margin-top: 10px; line-height: 1; margin-bottom: 0; } }
+@media (min-width: 481px) and (max-width: 576px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003177}}
+  * { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003185}}
+  #gallery .gellary_ .gallery-text h3 { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003188}}
+  #gallery .gellary_ .gallery-text h4 { font-size: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003197}}
+  .room-single .room-single-item .col-xs-4 { width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003207}}
+  #slide-home .slide_ .owl-nav .owl-next i.fa, #slide-home .slide_ .owl-nav .owl-prev i.fa { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003214}}
+  #slide-home .slide_ .slide_item .slide-content h1 { font-size: 36px; line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003223}}
+  #news { height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003227}}
+  #news .news-right .news-items .line-buttom { padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003229}}
+  #news .news-right .news-items .line-buttom .content { font-size: 12px; line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003237}}
+  #news .news-left .line { margin: 48px 0 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003239}}
+  #news .news-left .line h3 { margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003243}}
+  #news .news-left .line .line_p .content { font-size: 12px; line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003254}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003260}}
+  #news-list ul.nav-tabs { margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003264}}
+  #news-list .tab-content #news { margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003268}}
+  #news-list .tab-content #news .tab-content-items .news-event-right h4 { font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003271}}
+  #news-list .tab-content #news .tab-content-items .news-event-right span { font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003274}}
+  #news-list .tab-content #news .tab-content-items .news-event-right p { font-size: 12px; height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003285}}
+  #news-list .news-pagination ul.pagination li a { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003293}}
+  #address-b3 { margin: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003295}}
+  #address-b3 .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003298}}
+  #address-b3 .col-xs-7 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003301}}
+  #address-b3 .address { border-left: none; border-top: 1px solid #7a6a37; padding: 10px; margin-top: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003312}}
+  #footer .footer-icon { height: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003314}}
+  #footer .footer-icon a { margin: 40px -15px; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003319}}
+  #footer .footer-buttom { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003321}}
+  #footer .footer-buttom .container { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003323}}
+  #footer .footer-buttom .container p { font-size: 12px; margin-top: 10px; line-height: 1; margin-bottom: 0; } }
+@media only screen and (max-width: 767px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003338}}
+  * { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003344}}
+  #news .news-left .line { margin: 48px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003352}}
+  #gallery .gellary_ .gallery-text h3 { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003355}}
+  #gallery .gellary_ .gallery-text h4 { font-size: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003366}}
+  #slide-home .slide_ .slide_item .slide-content h1 { font-size: 36px; line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003375}}
+  #menu-list { margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003377}}
+  #menu-list ul.nav-tabs { margin-bottom: 30px; border-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003381}}
+  #menu-list ul.nav-tabs li a { font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003384}}
+  #menu-list ul.nav-tabs li:nth-child(1) { margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003389}}
+  #menu-list ul.nav-tabs li.active a { border: 1px solid #ceb04a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003396}}
+  #room-details { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003402}}
+  #room-details .room-list .room-list-item .room-detail .room-detail-right h3 { margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003407}}
+  #room-details .room-list .room-list-item .room-img { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003415}}
+  #myModal .modal-content { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003421}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003427}}
+  #news-list ul.nav-tabs { margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003431}}
+  #news-list .tab-content #news { margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003435}}
+  #news-list .tab-content #news .tab-content-items .news-event-right h4 { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003438}}
+  #news-list .tab-content #news .tab-content-items .news-event-right span { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003441}}
+  #news-list .tab-content #news .tab-content-items .news-event-right p { font-size: 13px; height: 54px; margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003453}}
+  #news-list .news-pagination ul.pagination li a { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003462}}
+  #address-b3 .logo-bottom { margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003464}}
+  #address-b3 .logo-bottom small { font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003471}}
+  #top ul { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003477}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003482}}
+  header .site-nav-wapper .navbar-header #mobile-nav-open-btn { opacity: 1; visibility: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003487}}
+  header .site-nav-wapper .navbar-header .navbar-brand img { width: 117px; height: 64px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003491}}
+  header .site-nav-wapper .navbar-header .navbar-brand .title-logo { font-size: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003500}}
+  #footer .footer-icon { height: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003502}}
+  #footer .footer-icon a { margin: 40px -15px; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003507}}
+  #footer .footer-buttom { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003509}}
+  #footer .footer-buttom .container { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003511}}
+  #footer .footer-buttom .container p { font-size: 12px; margin-top: 10px; line-height: 1; margin-bottom: 0; } }
+@media only screen and (max-width: 480px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003526}}
+  * { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003533}}
+  #gallery .gellary_ .gallery-text h3 { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003536}}
+  #gallery .gellary_ .gallery-text h4 { font-size: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003542}}
+  #news { height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003546}}
+  #news .news-right .news-items .line-buttom { padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003548}}
+  #news .news-right .news-items .line-buttom .content { font-size: 12px; line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003556}}
+  #news .news-left .line { margin: 48px 0 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003558}}
+  #news .news-left .line h3 { margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003562}}
+  #news .news-left .line .line_p .content { font-size: 12px; line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003573}}
+  .room-single .room-single-item .col-xs-4 { width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003584}}
+  #slide-home .slide_ .owl-nav .owl-next i.fa, #slide-home .slide_ .owl-nav .owl-prev i.fa { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003591}}
+  #slide-home .slide_ .slide_item .slide-content h1 { font-size: 36px; line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003602}}
+  #menu-list ul.nav-tabs li { padding: 0 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003604}}
+  #menu-list ul.nav-tabs li a { font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003612}}
+  #menu-slide #myCarousel .carousel-control { width: 13%; height: 50%; top: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003620}}
+  #room-details { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003626}}
+  #room .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003631}}
+  #myModal { left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003633}}
+  #myModal .modal-content { width: 460px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003638}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003643}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003647}}
+  #news-detail .news-detail-left h4 { font-size: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003650}}
+  #news-detail .news-detail-left span { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003652}}
+  #news-detail .news-detail-left span:after { content: ""; width: 100px; height: 2px; background-color: #f2f2f2; display: block; margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003661}}
+  #news-detail .news-detail-left p { margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003668}}
+  #news-list .ul.nav-tabs { margin-bottom: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003673}}
+  #news-list .tab-content .tab-content-event a { padding: 5px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003677}}
+  #news-list .tab-content #news { margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003680}}
+  #news-list .tab-content .tab-content-items { margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003683}}
+  #news-list .tab-content .tab-content-items .news-event-right h4 { font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003687}}
+  #news-list .tab-content .tab-content-items .news-event-right span { font-size: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003690}}
+  #news-list .tab-content .tab-content-items .news-event-right p { margin-bottom: 2px; font-size: 12px; height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003695}}
+  #news-list .tab-content .tab-content-items .news-event-right a { font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003704}}
+  #news-list .news-pagination ul.pagination li a { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003714}}
+  .banner .banner-fix.contact .title-lg { top: 270px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003717}}
+  .banner .banner-fix.contact .title-lg h1 { font-size: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003722}}
+  .banner .banner-fix.contact .title-lg .line-start:before { width: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003725}}
+  .banner .banner-fix.contact .title-lg .line-start:after { width: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003728}}
+  .banner .banner-fix.contact .title-lg .line-start span { font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003736}}
+  #personnel { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003739}}
+  #personnel .personnel-title h4 { font-size: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003745}}
+  #address-b3 { margin: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003747}}
+  #address-b3 .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003750}}
+  #address-b3 .col-xs-7 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003753}}
+  #address-b3 .address { border-left: none; border-top: 1px solid #7a6a37; padding: 10px; margin-top: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003764}}
+  #footer .footer-icon { height: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003766}}
+  #footer .footer-icon a { margin: 40px -15px; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003771}}
+  #footer .footer-buttom { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003773}}
+  #footer .footer-buttom .container { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003775}}
+  #footer .footer-buttom .container p { font-size: 12px; margin-top: 10px; line-height: 1; margin-bottom: 0; } }
+@media only screen and (max-width: 414px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003792}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003798}}
+  #slide-home .slide_ .owl-dots { bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003801}}
+  #slide-home .slide_ .owl-dots .owl-dot span { width: 5px; height: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003809}}
+  #news { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003812}}
+  #news .news-right .title-news { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003816}}
+  #news .news-left { margin: 48px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003819}}
+  #news .news-left .line h3 { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003823}}
+  #news .news-left .line .line_p .content { height: 83px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003837}}
+  .room-single .title-lg .line-start:after, .room-single .title-lg .line-start:before, #menu-list .title-lg .line-start:after, #menu-list .title-lg .line-start:before, #gallery .title-lg .line-start:after, #gallery .title-lg .line-start:before { width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003841}}
+  .room-single .title-lg h1, #menu-list .title-lg h1, #gallery .title-lg h1 { font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003849}}
+  #menu-list .tab-content .menu-list-item { margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003851}}
+  #menu-list .tab-content .menu-list-item .col-xs-5, #menu-list .tab-content .menu-list-item .col-xs-7 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003854}}
+  #menu-list .tab-content .menu-list-item .menu-list-item-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003856}}
+  #menu-list .tab-content .menu-list-item .menu-list-item-right h4 { font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003859}}
+  #menu-list .tab-content .menu-list-item .menu-list-item-right p { font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003868}}
+  #room .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003878}}
+  #room-details .room-list .room-list-item .room-detail .room-detail-right h3 { font-size: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003881}}
+  #room-details .room-list .room-list-item .room-detail .room-detail-right p { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003890}}
+  #room-details .owl-theme .owl-nav .owl-next, #room-details .owl-theme .owl-nav .owl-prev { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003898}}
+  #myModal .modal-content { width: 394px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003904}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003906}}
+  #news-detail .news-detail-right .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003911}}
+  #news-detail .news-detail-left h4 { font-size: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003914}}
+  #news-detail .news-detail-left span { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003916}}
+  #news-detail .news-detail-left span:after { content: ""; width: 100px; height: 2px; background-color: #f2f2f2; display: block; margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003925}}
+  #news-detail .news-detail-left p { margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003934}}
+  #news-list #news .tab-content-items .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003937}}
+  #news-list #news .tab-content-items .col-xs-7.news-event-right { width: 100%; margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003940}}
+  #news-list #news .tab-content-items .col-xs-7.news-event-right a { font-size: 14px; } }
+@media only screen and (max-width: 375px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003952}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003958}}
+  #room-details .owl-nav button.owl-prev { opacity: 0; visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003962}}
+  #room-details .owl-nav button.owl-next { opacity: 0; visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003969}}
+  #room-details .room-list .room-list-item .room-img { margin-top: -30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003971}}
+  #room-details .room-list .room-list-item .room-img .room-img-item { width: 100%; margin-top: 55px; margin-bottom: -60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003983}}
+  #room .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003989}}
+  #myModal .modal-content { width: 355px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003995}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\00003997}}
+  #news-detail .news-detail-right .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031002}}
+  #news-detail .news-detail-left h4 { font-size: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031005}}
+  #news-detail .news-detail-left span { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031007}}
+  #news-detail .news-detail-left span:after { content: ""; width: 100px; height: 2px; background-color: #f2f2f2; display: block; margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031016}}
+  #news-detail .news-detail-left p { margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031023}}
+  #news-list ul.nav-tabs { margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031029}}
+  #news-list .tab-content #news .tab-content-items .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031032}}
+  #news-list .tab-content #news .tab-content-items .col-xs-7.news-event-right { width: 100%; margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031041}}
+  #address-b3 { margin: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031043}}
+  #address-b3 .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031046}}
+  #address-b3 .col-xs-7 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031049}}
+  #address-b3 .address { border-left: none; border-top: 1px solid #7a6a37; padding: 10px; margin-top: 20px; text-align: center; } }
+@media only screen and (max-width: 320px) { @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031061}}
+  * { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031067}}
+  #news .news-left .line { margin: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031076}}
+  #gallery .gellary_ .gallery-text h4 { font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031077}}
+  #gallery .gellary_ .gallery-text h3 { font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031082}}
+  #gallery .title-lg .line-start:before { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031083}}
+  #gallery .title-lg .line-start:after { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031090}}
+  #menu-list .title-lg .line-start:before { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031091}}
+  #menu-list .title-lg .line-start:after { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031098}}
+  .room-single .room-single-item .col-xs-4 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031104}}
+  .room-single .title-lg .line-start:before { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031105}}
+  .room-single .title-lg .line-start:after { width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031114}}
+  #room-details .room-list .room-list-item .room-img .img-pd { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031116}}
+  #room-details .room-list .room-list-item .room-img .img-pd .room-img-item { width: 100%; margin-bottom: 33px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031128}}
+  #myModal .modal-content { width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031133}}
+  #news-detail .news-detail-right { margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031135}}
+  #news-detail .news-detail-right .col-xs-6 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031140}}
+  #news-detail .news-detail-left h4 { font-size: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031143}}
+  #news-detail .news-detail-left span { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031145}}
+  #news-detail .news-detail-left span:after { content: ""; width: 100px; height: 2px; background-color: #f2f2f2; display: block; margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031154}}
+  #news-detail .news-detail-left p { margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031164}}
+  #news-list .tab-content .tab-content-items .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031167}}
+  #news-list .tab-content .tab-content-items .col-xs-7.news-event-right { width: 100%; margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031175}}
+  #top { height: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031180}}
+  #top ul li a i { width: 25px; height: 25px; line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031190}}
+  header { margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031194}}
+  #personnel { margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031197}}
+  #personnel .personnel-title h4 { font-size: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031203}}
+  #address-b3 { margin: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031205}}
+  #address-b3 .col-xs-5 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031208}}
+  #address-b3 .col-xs-7 { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031211}}
+  #address-b3 .address { border-left: none; border-top: 1px solid #7a6a37; padding: 10px; margin-top: 20px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031223}}
+  .banner .banner-fix.contact .title-lg { top: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031226}}
+  .banner .banner-fix.contact .title-lg h1 { font-size: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031231}}
+  .banner .banner-fix.contact .title-lg .line-start:before { width: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031234}}
+  .banner .banner-fix.contact .title-lg .line-start:after { width: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031237}}
+  .banner .banner-fix.contact .title-lg .line-start span { font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031246}}
+  #footer .footer-icon { height: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031248}}
+  #footer .footer-icon a { margin: 40px -15px; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031253}}
+  #footer .footer-buttom { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031255}}
+  #footer .footer-buttom .container { height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/quy06\/Desktop\/offer\/b3\/css\/_reponsive\.scss}line{font-family:\000031257}}
+  #footer .footer-buttom .container p { font-size: 12px; margin-top: 10px; line-height: 1; margin-bottom: 0; } }
+
+/*# sourceMappingURL=style.css.map */
